@@ -9,14 +9,24 @@
       .text-container {
           text-align: center;
       }
+      .container {
+          border-style: solid;
+          border-width: 1;
+          border-color: #333;
+          border-radius: 25px;
+          padding: 20px;
+      }
     </style>
   </head>
-  <body>
-    <div class="img-container"> <!-- Block parent element -->
-      <img width=200 src="https://avatars.githubusercontent.com/u/31854487?s=400&u=1c77fe78610e3c5219157a946804ebcf9649f726&v=4" alt="Roshan Ramdas">
+  <body style="background-color: #cccccc;">
+    <div class="container">
+        <div class="img-container"> <!-- Block parent element -->
+            <img width=200 src="https://avatars.githubusercontent.com/u/31854487?s=400&u=1c77fe78610e3c5219157a946804ebcf9649f726&v=4" alt="Roshan Ramdas">
+          </div>
+          <div class="text-container"> <!-- Block parent element -->
+              <h1>Roshan Ramdas</h1>
+              <h3>React Native Developer</h3>
+            </div>
     </div>
-    <div class="text-container"> <!-- Block parent element -->
-        <h1>Roshan Ramdas!</h1>
-      </div>
   </body>
 </html>
