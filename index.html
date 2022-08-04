@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="apple-icon.png">
+        <title>Roshan | Fan Page</title>
+    </head>
+    <script>
+        function changeImage() {
+    if (document.getElementById("newImg").src == "akatsuki.jpg"){
+        document.getElementById("newImg").src = "members.jpg";
+    } else {
+        document.getElementById("newImg").src = "akatsuki.jpg";
+    }
+}
+    </script>
+    <body>
+        
+       
+        <table>
+            <tr>
+                <th>
+                    <h1 id="demo">Akatsuki</h1>
+                </th>
+                <th>
+                    <p>
+                        <img alt="" src="akatsuki.jpg" 
+                            width=100 id="newImg" />
+                    </p>
+                </th>
+            </tr>
+        </table>
+        <button type="button" onclick="changeImage()">Click Me!</button>
+    </body>
+</html>
